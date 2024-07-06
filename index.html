@@ -9,11 +9,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 	<style>
     
-  	  @media (max-width: 540px){
-    	  	#logo{
+  	@media (max-width: 540px){
+    		#logo{
         		width: 25%;
     		}
-	  }
+
+        	#smartver{
+            		width: 100% !important;
+        	}
+
+        	.main-logo p{
+            		font-size: 100% !important;
+        	}
+		#presentacion{
+			font-size: 14px !important;	  
+		}
+	}
 
       @media (min-width: 540px){
           #logo{
@@ -266,7 +277,7 @@
                         <div class="row">
                             <div class="main-logo col-md-12 text-center justify-content-center ">
                                 <img style="transform: scale(0.7);" src="https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihYhBaNzWz6QVkC88cgvPxDYyDYpstu2OMGQOM1otrZGrIepTgLYjwuLFCSXRMCqeuEJ5XLq9FLv6WABMRNLGiuuaLvajp9e-v0=w1325-h696" alt="producto">
-                                <p style="font-size: 24px;">${language.presentacion}</p>
+                                <p id="presentacion" style="font-size: 24px;">${language.presentacion}</p>
                             </div>
                         </div>
                     </div>
@@ -283,7 +294,7 @@
                                 </p>
                             </div>
                             <div class="col-md-6">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/DHddTVPYIwE?si=CByTFjJCkT3a3DXE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <iframe id="smartver" width="560" height="315" src="https://www.youtube.com/embed/DHddTVPYIwE?si=CByTFjJCkT3a3DXE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>
